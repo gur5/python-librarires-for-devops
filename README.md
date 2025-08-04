@@ -37,6 +37,9 @@ for reservation in response['Reservations']:
 
 ## 2. `paramiko` – SSH Automation
 
+<details>
+    <summary>View</summary>
+
 **Why use it:** Execute remote commands securely over SSH.
 
 **Use Case:** Automate server management tasks like updates, log checks, and reboots.
@@ -56,9 +59,14 @@ print(stdout.read().decode())
 ssh.close()
 ```
 
+</details>
+
 ---
 
 ## 3. `docker` – Docker SDK for Python
+
+<details>
+    <summary>View</summary>
 
 **Why use it:** Manage Docker containers and images programmatically.
 
@@ -74,6 +82,7 @@ container = client.containers.run("nginx", detach=True)
 print(f"Started container with ID: {container.id}")
 ```
 
+</details>
 ---
 
 ## 4. `kubernetes` – Kubernetes Python Client
