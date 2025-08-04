@@ -11,6 +11,8 @@ In this video, we'll explore **8 powerful Python libraries every DevOps Engineer
 ---
 
 ## 1. `boto3` – AWS SDK for Python
+<details>
+    <summary>View</summary>
 
 **Why use it:** Automate AWS resource provisioning and management.
 
@@ -27,6 +29,9 @@ for reservation in response['Reservations']:
     for instance in reservation['Instances']:
         print(f"Instance ID: {instance['InstanceId']}")
 ```
+
+</details>
+
 
 ---
 
