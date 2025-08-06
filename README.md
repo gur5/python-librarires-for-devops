@@ -87,6 +87,10 @@ print(f"Started container with ID: {container.id}")
 
 ## 4. `kubernetes` – Kubernetes Python Client
 
+<details>
+    <summary>View</summary>
+
+
 **Why use it:** Interact with Kubernetes clusters directly from Python.
 
 **Use Case:** Automate deployment rollouts, pod monitoring, or log retrieval.
@@ -103,6 +107,8 @@ pods = v1.list_pod_for_all_namespaces(watch=False)
 for pod in pods.items:
     print(f"{pod.metadata.namespace} - {pod.metadata.name}")
 ```
+
+</details>
 
 ---
 
