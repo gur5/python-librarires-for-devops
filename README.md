@@ -114,6 +114,10 @@ for pod in pods.items:
 
 ## 5. `pyyaml` – YAML Parsing and Generation
 
+<details>
+    <summary>View</summary>
+
+
 **Why use it:** Read and write YAML config files.
 
 **Use Case:** Modify Kubernetes YAML files, Ansible playbooks, or CI/CD pipeline configs.
@@ -128,6 +132,8 @@ with open("config.yaml") as f:
 
 print(config["environment"])
 ```
+
+</details>
 
 ---
 
