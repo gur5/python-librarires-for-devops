@@ -185,6 +185,9 @@ conn.run("sudo systemctl restart nginx")
 
 ## 8. `pytest` – Testing Infrastructure
 
+<details>
+    <summary>View</summary>
+
 **Why use it:** Write tests for your automation scripts and infrastructure code.
 
 **Use Case:** Validate output of your Ansible roles, shell scripts, or Python automation.
@@ -199,6 +202,8 @@ def test_add():
 Run the test:
 
 `pytest test_script.py`
+
+</details>
 
 ---
 
