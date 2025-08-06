@@ -139,6 +139,10 @@ print(config["environment"])
 
 ## 6. `requests` – HTTP Requests
 
+<details>
+    <summary>View</summary>
+
+
 **Why use it:** Communicate with REST APIs easily.
 
 **Use Case:** Trigger deployments, interact with GitHub/GitLab, or call webhook URLs.
@@ -151,6 +155,8 @@ import requests
 response = requests.get("https://httpbin.org/get")
 print(response.json())
 ```
+
+</details>
 
 ---
 
