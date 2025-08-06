@@ -162,6 +162,10 @@ print(response.json())
 
 ## 7. `fabric` – Command Line Automation
 
+<details>
+    <summary>View</summary>
+
+
 **Why use it:** Execute shell commands and deploy scripts across multiple servers.
 
 **Use Case:** Automate app deployment or perform cluster-wide configuration.
@@ -174,6 +178,8 @@ from fabric import Connection
 conn = Connection("devops@192.168.1.10")
 conn.run("sudo systemctl restart nginx")
 ```
+
+</details>
 
 ---
 
